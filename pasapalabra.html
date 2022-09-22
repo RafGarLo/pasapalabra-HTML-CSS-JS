@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasapalabra</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <section>
+        <button class="game" id="start">Start</button>
+        <button class="game" id="end">End</button>
+    </section>
+
+    <section class="container">
+        <span id="title">PASAPALABRA</span>
+        <div id="letraContainer">
+            <span class="letra" id="A">A</span>
+            <span class="letra" id="B">B</span>
+            <span class="letra" id="C">C</span>
+            <span class="letra" id="D">D</span>
+            <span class="letra" id="E">E</span>
+            <span class="letra" id="F">F</span>
+            <span class="letra" id="G">G</span>
+            <span class="letra" id="H">H</span>
+            <span class="letra" id="I">I</span>
+            <span class="letra" id="J">J</span>
+            <span class="letra" id="K">K</span>
+            <span class="letra" id="L">L</span>
+            <span class="letra" id="M">M</span>
+            <span class="letra" id="N">N</span>
+            <span class="letra" id="NN">Ñ</span>
+            <span class="letra" id="O">O</span>
+            <span class="letra" id="P">P</span>
+            <span class="letra" id="Q">Q</span>
+            <span class="letra" id="R">R</span>
+            <span class="letra" id="S">S</span>
+            <span class="letra" id="T">T</span>
+            <span class="letra" id="U">U</span>
+            <span class="letra" id="V">V</span>
+            <span class="letra" id="W">W</span>
+            <span class="letra" id="X">X</span>
+            <span class="letra" id="Y">Y</span>
+            <span class="letra" id="Z">Z</span>
+            
+        </div>
+        
+        <p id="bienvenido">Bienvenido</p>
+        <p id="intro">Basado en el mundialmente famoso concurso de televisión, aquí tienes el juego de Pasapalabra. Se
+            irán mostrando definiciones en pantalla, y tendrás un tiempo limitado para responder o escoger "pasapalabra"
+            y retrasar lo inevitable. El juego es sensible a puntuación, así que evita utilizar tildes para ahorrarnos
+            una regañina con el jefe. Puedes utilizar el botón ENVIAR para dar tu respuesta.
+            que tú prefieras, de verdad.</p>
+    </section>
+
+    <div class="answer">
+        <button id="pasapalabra" class="onGame">Pasapalabra</button><input type="text" id="answerText" class="onGame" placeholder="Escribe aquí tu respuesta"><button id="answerBtn" class="onGame">Enviar</button>
+    </div><br>
+    <div id= "timeTitle" class="onGame">Time</div><p class="onGame" id="countdown"></p>
+    <div>
+        <h2 class="onGame" id="preguntasTitle">Preguntas</h2>
+        <p class="onGame" id="questions"></p>
+        <p id="feedback"></p>
+        <p class="scores-onResults" id ="scoreboard"></p>
+        <ol class="scores-onResults">
+          <li class="scores-onResults" id="first"></li>
+          <li class="scores-onResults" id="second"></li>
+          <li class="scores-onResults" id="third"></li>
+        </ol>
+    </div>
+    <script src="pasapalabra.js"></script>
+</body>
+
+</html>
