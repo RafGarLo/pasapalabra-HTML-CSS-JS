@@ -1,0 +1,383 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(48, 71, 219);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal white;
+}
+
+.container {
+  width: 500px;
+  height: 450px;
+  align-content: center;
+
+
+}
+
+.intro p {
+  width: 400px;
+  transform-origin: 50% 100% 0px;
+  transform: translate(600.362px, 155.7766px);
+
+}
+
+.game#start:active {
+  filter: brightness(1.5);
+}
+
+.game#start {
+  background-color: rgb(226, 243, 113);
+  height: 30px;
+  width: 80px;
+  padding: 2px;
+  border-radius: 5px;
+  align-self: center;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.game#end:active {
+  filter: brightness(1.5);
+}
+
+.game#end {
+  background-color: rgb(226, 243, 113);
+  height: 30px;
+  width: 80px;
+  padding: 2px;
+  border-radius: 5px;
+  align-self: center;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button#pasapalabra {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button#pasapalarbra:active {
+  filter: brightness(1.5);
+}
+
+.answer button {
+  background-color: rgb(226, 243, 113);
+  height: 30px;
+  width: 80px;
+  padding: 2px;
+  border-radius: 5px;
+  float: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.answer button:active {
+  filter: brightness(1.5);
+  
+}
+
+.letra {
+  transform-origin: 50% 100% 0px;
+  line-height: 0.85;
+  width: 30px;
+  color: rgb(218, 212, 212);
+  overflow: visible;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  white-space: pre;
+  display: block;
+  margin: 1px;
+  padding: 4px;
+  position: absolute;
+  transform-origin: 50% 100% 0px;
+  box-shadow: 0px 0px 0px 2px #3b68f0;
+  background-color: #2906eb;
+  border-radius: 15px;
+  text-align: center;
+  border-left: 1px solid rgb(39, 39, 39);
+  border-bottom: 2px solid rgb(39, 39, 39);
+  border-top: 1px solid rgb(39, 39, 39);
+}
+
+.hidden {
+  display:none;
+}
+
+.show {
+  display: block;
+}
+
+#title {
+  transform-origin: 50% 100% 0px;
+  text-align: center;
+  position:absolute;
+  transform: translate(210.764px, 190.0049px);
+  font-size: 24px;
+  color: rgb(242, 237, 237);
+
+  -moz-box-shadow: 0px 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: px;
+  border: none;
+  background: rgb(48, 71, 219);
+
+}
+
+#A {
+  transform: translate(280.764px, 40.0049px);
+}
+
+#B {
+  transform: translate(317.452px, 44.0817px);
+}
+
+#C {
+  transform: translate(351.362px, 55.7766px);
+}
+
+#D {
+  transform: translate(379.623px, 75.1301px);
+}
+
+#E {
+  transform: translate(406.849px, 100.496px);
+}
+
+#F {
+  transform: translate(424.435px, 128.073px);
+}
+
+#G {
+  transform: translate(433.028px, 161.02px);
+}
+
+#H {
+  transform: translate(436.467px, 199.22px);
+}
+
+#I {
+  transform: translate(430.37px, 232.458px);
+}
+
+#J {
+  transform: translate(420.078px, 264.343px);
+}
+
+#K {
+  transform: translate(400.13px, 295.274px);
+  font-size: 24px;
+}
+
+#L {
+  transform: translate(372.13px, 320.274px);
+  font-size: 24px;
+}
+
+#M {
+  transform: translate(340.37px, 336px);
+}
+
+#N {
+  transform: translate(308.37px, 348.458px);
+}
+
+#NN {
+  transform: translate(275.37px, 356px);
+  font-size: 24px;
+}
+
+#O {
+  transform: translate(240.37px, 348px);
+}
+
+#P {
+  transform: translate(204.37px, 335.458px);
+  font-size: 24px;
+}
+
+#Q {
+  transform: translate(172.37px, 312px);
+}
+
+#R {
+  transform: translate(150.37px, 285.458px);
+  font-size: 24px;
+}
+
+#S {
+  transform: translate(128.028px, 255.343px);
+}
+
+#T {
+  transform: translate(121.028px, 218.343px);
+}
+
+#U {
+  transform: translate(120.028px, 180.343px);
+}
+
+#V {
+  transform: translate(132.028px, 145.343px);
+  font-size: 22px;
+}
+
+#W {
+  transform: translate(148.343px, 110.028px);
+}
+
+#X {
+  transform: translate(175.343px, 80.028px);
+}
+
+#Y {
+  transform: translate(205.343px, 55.028px);
+}
+
+#Z {
+  transform: translate(245.343px, 45.028px);
+}
+
+#bienvenido {
+  font-size: 1.25em;
+  color: rgba(227, 229, 211, 0.821);
+  font: bold;
+  transform: translate(820.343px, 70px);
+}
+
+#intro {
+  transform: translate(645.343px, 100px);
+  color: rgba(227, 229, 211, 0.821);
+  font-size: 1.1em;
+}
+
+.answer {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  float: center;
+  margin: 10px;
+
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+
+#timeTitle {
+  height: 35px;
+  width: flex;
+  float: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  font-style: bold;
+}
+
+#countdown {
+  height: 35px;
+  width: flex;
+  float: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  font-style: bold;
+}
+
+#questions {
+  height: 35px;
+  width: flex;
+  border-radius: 5px;
+  border: solid rgb(242, 241, 241);
+  float: center;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+
+}
+
+#feedback {
+  height: 35px;
+  width: flex;
+  border-radius: 5px;
+  border: solid rgb(242, 241, 241);
+  float: center;
+  padding: 5px;
+  float: center;
+  text-align: center;
+  color: rgb(243, 246, 249);
+
+}
+
+.scores-onResults#scoreboard {
+  height: 35px;
+  width: flex;
+  border-radius: 5px;
+  border: solid rgb(242, 241, 241);
+  float: center;
+  padding: 5px;
+  float: center;
+  text-align: center;
+  color: rgb(241, 244, 246);
+
+}
+
+.scores-onResults#first {
+  height: 35px;
+  width: flex;
+  border-radius: 5px;
+  border: solid rgb(242, 241, 241);
+  float: center;
+  padding: 5px;
+  float: center;
+  text-align: center;
+  color: rgb(248, 248, 244);
+  margin: 5px;
+
+}
+
+.scores-onResults#second {
+  height: 35px;
+  width: flex;
+  border-radius: 5px;
+  border: solid rgb(242, 241, 241);
+  float: center;
+  padding: 5px;
+  float: center;
+  text-align: center;
+  color: rgb(229, 233, 237);
+  margin: 5px;
+
+}
+
+.scores-onResults#third {
+  height: 35px;
+  width: flex;
+  border-radius: 5px;
+  border: solid rgb(242, 241, 241);
+  float: center;
+  padding: 5px;
+  float: center;
+  text-align: center;
+  color: rgb(246, 242, 236);
+  margin: 5px;
+
+}
